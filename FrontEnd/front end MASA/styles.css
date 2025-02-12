@@ -1,0 +1,278 @@
+body {
+  background-color: #fffafa;
+}
+
+/* Custom Navbar Styling */
+.navbar {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ce2d4f;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fffafa;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ce2d4f;
+  background-color: #fffafa;
+  border-radius: 5px;
+}
+
+.writing {
+  color: #ce2d4f;
+  text-align: justify;
+  text-align-last: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Kiwi Maru", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+
+#h1 {
+  text-align: center;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#btnShop {
+  background-color: #ce2d4f;
+  color: #fffafa;
+  font-family: "Kiwi Maru", serif;
+  font-weight: 400;
+  font-style: normal;
+  border: 2px solid transparent; /* Initial border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  padding: 10px 20px; /* Padding for a better button size */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+#btnShop:hover {
+  background-color: #fffafa;
+  color: #ce2d4f;
+  border-color: #ce2d4f;
+  cursor: pointer;
+}
+
+/* Flexbox Container */
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#Homeimg {
+  width: 250px; /* Set a smaller width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Adjust the height of the carousel */
+.carousel-item {
+  height: 300px; /* Adjust this value to your desired height */
+}
+
+/* Ensure the images fill the carousel without distortion */
+.carousel-item img {
+  /* This makes sure the images fill the height without stretching */
+  height: 100%; /* Make sure the images cover the full height of the carousel item */
+  width: 100%; /* Make sure the images cover the full width */
+}
+
+#carouselExampleAutoplaying {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Product Cards Section */
+/* Product Cards Section */
+.product-cards-section {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ce2d4f;
+  font-family: "Kiwi Maru", serif;
+  margin-bottom: 30px;
+}
+
+/* Product Cards Section */
+.product-cards-section {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ce2d4f;
+  font-family: "Kiwi Maru", serif;
+  margin-bottom: 30px;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top {
+  object-fit: contain; /* Ensures the full image is visible */
+  height: 100%; /* Optional: Adjust as needed */
+  width: 100%; /* Ensures the image takes up the full card width */
+}
+
+/* Apply the "jump" effect when the card is hovered */
+.card:hover {
+  transform: translateY(-10px); /* Move the card up */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+}
+
+.card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #ce2d4f;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.card .btn {
+  background-color: #ce2d4f;
+  color: #fffafa;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+  background-color: #fffafa;
+  color: #ce2d4f;
+  border-color: #ce2d4f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Footer Styling */
+.main-content {
+  min-height: 100%; /* Ensures that content area expands to at least the height of the page */
+  padding-bottom: 60px; /* Give some space for the footer */
+}
+
+.textcolor {
+  color: #ce2d4f;
+}
+
+h5 {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.cart-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+}
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.contact-form {
+  background-color: #fffafa;
+  border: 1px solid #ce2d4f;
+  border-radius: 10px;
+}
+
+.contact-form .form-label {
+  font-size: 1.2rem;
+  color: #ce2d4f;
+  font-family: "Kiwi Maru", serif;
+}
+
+.contact-form .form-control {
+  border: 2px solid #ce2d4f;
+  border-radius: 5px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #ce2d4f;
+  box-shadow: 0 0 5px rgba(206, 45, 79, 0.5);
+}
+
+#btnContact {
+  background-color: #ce2d4f;
+  color: #fffafa;
+  font-family: "Kiwi Maru", serif;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+#btnContact:hover {
+  background-color: #fffafa;
+  color: #ce2d4f;
+  border: 2px solid #ce2d4f;
+}
+#h1cart {
+  color: #ce2d4f;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+p {
+  color: #ce2d4f;
+  font-family: "Kiwi Maru", serif;
+  font-weight: 40;
+  font-style: normal;
+}
